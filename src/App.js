@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import A from "././image/A.jpg";
+import B from "././image/B.jpg";
 import { useState } from "react";
 
 const App = () => {
@@ -71,7 +71,7 @@ const App = () => {
               {currentCard === 3 && (
                 <div className="image">
                   <h3>Aku sayang kamu😍😍</h3>
-                  <img className="img" src={A} alt="gambar" />
+                  <img className="img" src={B} alt="gambar" />
                   <button className="button" onClick={openWa}>
                     Balas Pesan Pacar❤️
                   </button>
