@@ -11,9 +11,9 @@ const App = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const name = e.target.name.value;
-    if (name === "nur") {
+    if (name === "Nur" || name === "Nurmadihah") {
       setShowForm(false);
-    } else if (name !== "nur") {
+    } else if (name !== "Nur" || name !== "Nurmadihah") {
       alert("EH Kamu Bukan Pacar Aku Kamu Impostor!!!!🗿🗿🗿🗿");
     }
   };
@@ -37,7 +37,7 @@ const App = () => {
             <form onSubmit={handleFormSubmit}>
               <label>
                 <input
-                  placeholder="Enter Your Fullname❤️"
+                  placeholder="Enter Your Name❤️"
                   type="text"
                   name="name"
                 />
